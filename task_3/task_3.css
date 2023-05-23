@@ -1,0 +1,26 @@
+.result{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 20px 10px;
+}
+.card-img{
+    width: 100%;
+}
+#inpNum{
+    background-color: #ccc6c6;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#btnRes{
+    padding: 5px 10px;
+    background-color: cornflowerblue;
+}
+#btnRes:hover, #btnRes:focus{
+    background-color: #072049;
+    color: white;
+    border-radius: 10px;
+}
